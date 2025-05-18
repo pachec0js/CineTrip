@@ -1,0 +1,26 @@
+:root {
+  --branco: #ffff;
+  --amarelo: #FFC800;
+  --azulEscuro: #1E1E4F;
+  --cinzaEscuro: #131313;
+  --preto: #000;
+}
+
+body {
+  background-color: var(--preto);
+}
+
+.not-found {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.not-found img {
+  width: 50vh;
+  margin-bottom: 2%;
+}
+
+::selection {
+  background-color: var(--amarelo);
+  color: var(--preto);
+}

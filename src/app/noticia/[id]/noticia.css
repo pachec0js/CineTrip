@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --Playfair: 'Playfair Display', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --dark: #3c393d;
+    --exDark: #2b2b2b;
+    --branco: #ffff;
+    --amarelo: #FFC800;
+    --azulEscuro: #1E1E4F;
+    --cinzaEscuro: #131313;
+    --preto: black;
+}
+
+body {
+    background-color: var(--preto);
+}
+
+
+.noticias {
+    padding: 5%;
+}
+
+.superior {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.title-noticia h2 {
+    color: var(--branco);
+}
+
+.title-noticia p {
+    color: #d1d1d1;
+}
+
+.datas {
+    width: 100%;
+    align-items: flex-start;
+}
+
+.datas p {
+    color: var(--branco);
+    font-size: 80%;
+}
+
+.line {
+    background-color: var(--amarelo);
+    width: 180px;
+    margin-top: -13px;
+    height: 1px;
+}
+
+.imagem {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.imagem img {
+    width: 95%;
+}
+
+.icones {
+    width: 30px;
+    cursor: pointer;
+    margin-left: -20px;
+}
+
+.circle {
+    padding: 7px;
+    color: var(--amarelo);
+    margin-bottom: 8px;
+    background-color: var(--preto);
+    border-radius: 50px;
+    text-align: center;
+    width: 39px;
+    border: 1px solid var(--amarelo);
+    cursor: pointer;
+}
+
+.circle:hover {
+    background-color: var(--amarelo);
+    border: 1px solid var(--preto);
+    color: var(--preto);
+    transition: 0.7s;
+}
+
+.bannerNoticia {
+    width: 90%;
+    border-radius: 15px;
+}
+
+.paiLinha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.linha {
+    background-color: var(--amarelo);
+    width: 94%;
+    height: 1px;
+    margin-top: 3%;
+}
+.corpoNoticia {
+    padding: 2% 6%;
+}
+
+.corpoNoticia p {
+    color: var(--branco);
+    text-align: justify;
+}
+
+@media (max-width: 991px) {
+    .icones {
+        width: 100%;
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .circle {
+        margin-right: 4px;
+    }
+
+}

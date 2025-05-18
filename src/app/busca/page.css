@@ -1,0 +1,39 @@
+body {
+    background-color: var(--preto);
+}
+
+.titulo {
+    color: var(--branco);
+    border-left: 2px solid var(--amarelo);
+    padding-left: 10px;
+}
+
+.titulo span {
+    color: var(--amarelo);
+}
+
+.sub-titulo {
+    color: var(--branco);
+    opacity: 70%;
+}
+
+.nao-encontrado {
+    color: var(--branco);
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.nao-encontrado span {
+    color: var(--amarelo);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}

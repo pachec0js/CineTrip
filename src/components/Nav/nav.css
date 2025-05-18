@@ -1,0 +1,86 @@
+:root {
+    --branco: #ffff;
+    --amarelo: #FFC800;
+    --azulEscuro: #1E1E4F;
+    --cinzaEscuro: #131313;
+    --preto: black;
+}
+
+.form-control {
+    border: none;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.btn-search {
+    background-color: var(--branco);
+}
+
+.navbar {
+    background-color: var(--preto);
+}
+
+.navbar-brand img {
+    width: 60px;
+}
+
+.search,
+.btn-search {
+    border-radius: 40px;
+}
+
+.color-nav {
+    color: var(--branco) !important;
+}
+
+.color-nav:hover {
+    color: var(--amarelo) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--preto);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent !important;
+    color: var(--amarelo) !important;
+}
+
+.dropdown-menu.dropdown-generos {
+    border-radius: 8px;
+    max-width: 420px;
+    padding: 0.5rem 2rem;
+    border: 1px solid var(--cinzaEscuro);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-generos .dropdown-item {
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.dropdown-item:focus,
+.dropdown-item:active {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: #FFC800;
+}
+
+span.navbar-toggler-icon {
+    filter: brightness(0) saturate(100%) invert(68%) sepia(77%) saturate(546%) hue-rotate(359deg) brightness(103%) contrast(105%);
+}
+
+@media (max-width: 991.98px) {
+    .menu {
+        min-width: auto;
+    };
+
+    .dropdown-menu {
+        padding: 9 !important;
+    }
+}

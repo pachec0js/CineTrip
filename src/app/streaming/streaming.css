@@ -1,0 +1,31 @@
+:root {
+    --branco: #ffff;
+    --amarelo: #FFC800;
+    --azulEscuro: #1E1E4F;
+    --cinzaEscuro: #131313;
+    --preto: black;
+    --cinza: #737373;
+}
+
+body {
+    background-color: var(--preto);
+}
+
+.titulo-destaque h1 {
+    color: var(--branco);
+    border-left: solid 3px var(--amarelo);
+    padding-left: 10px;
+}
+
+.titulo-destaque span {
+    color: var(--amarelo);
+}
+
+.titulo-destaque a {
+    text-decoration-line: none !important;
+}
+
+.titulo-destaque a:hover {
+    text-decoration-line: underline !important;
+    color: var(--amarelo);
+}

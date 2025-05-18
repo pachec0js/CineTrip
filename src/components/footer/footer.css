@@ -1,0 +1,60 @@
+.footer-cinetrip {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.95rem;
+    border-top: 1px solid var(--amarelo);
+}
+
+.footer-logo {
+    width: 160px;
+}
+
+.footer-title {
+    color: #FFC800;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.footer-description {
+    color: #ccc;
+    font-size: 0.9rem;
+    max-width: 300px;
+}
+
+.footer-text {
+    color: #ccc;
+}
+
+.border-footer {
+    border-top: 1px solid var(--amarelo);
+}
+
+.footer-link {
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #FFC800;
+}
+
+.footer-social {
+    color: #FFC800;
+    font-size: 1.3rem;
+    transition: opacity 0.3s ease;
+}
+
+.footer-social:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 991.98px) {
+    .div-logo-footer, .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

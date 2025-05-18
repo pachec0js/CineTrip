@@ -1,0 +1,50 @@
+{
+    "desktop": [
+        {
+            "title": "The Last of Us",
+            "rating": 9.0,
+            "overview": "Em um mundo devastado por uma pandemia fúngica, Joel e Ellie lutam para sobreviver e encontrar esperança.",
+            "image": "/carrosel/joel.png",
+            "link": "serie/100088"
+        },
+        {
+            "title": "Better Man",
+            "rating": 7.8,
+            "overview": "Um olhar profundo e musical, os altos e baixos e os desafios pessoais de Robbie Williams, ícone do pop britânico.",
+            "image": "/carrosel/better.png",
+            "link": "filme/799766"
+        },
+        {
+            "title": "Conclave",
+            "rating": 6.9,
+            "overview": "Durante o conclave papal, segredos são revelados e alianças se formam na luta pelo poder dentro do Vaticano.",
+            "image": "/carrosel/conclave.png",
+            "link": "filme/974576"
+        },
+        {
+            "title": "Thunderbolts",
+            "rating": 7.0,
+            "overview": "Um grupo de anti-heróis da Marvel é reunido para missões sombrias e perigosas fora dos holofotes dos Vingadores.",
+            "image": "/carrosel/thunder.png",
+            "link": "filme/986056"
+        }
+    ],
+    "mobile": [
+        {
+            "image": "/carrosel/joelMobile.png",
+            "link": "serie/100088"
+        },
+        {
+            "image": "/carrosel/betterMobile.png",
+            "link": "filme/799766"
+        },
+        {
+            "image": "/carrosel/conclaveMobile.png",
+            "link": "filme/974576"
+        },
+        {
+            "image": "/carrosel/thunderMobile.png",
+            "link": "filme/986056"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+:root {
+    --branco: #ffff;
+    --amarelo: #FFC800;
+    --azulEscuro: #1E1E4F;
+    --cinzaEscuro: #131313;
+    --preto: black;
+    --cinza: #737373;
+}
+
+body {
+    background-color: var(--preto);
+}
+
+.titulo-destaque h1 {
+    color: var(--branco);
+    border-left: solid 3px var(--amarelo);
+    padding-left: 10px;
+}
+
+.titulo-destaque span {
+    color: var(--amarelo);
+}

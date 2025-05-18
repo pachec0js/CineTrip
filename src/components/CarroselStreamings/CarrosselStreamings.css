@@ -1,0 +1,12 @@
+.streamings-logo {
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.streamings-logo:hover {
+    opacity: 85%;
+    transition: .5s;
+}

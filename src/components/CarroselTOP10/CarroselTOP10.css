@@ -1,0 +1,46 @@
+.swiper-button-next,
+.swiper-button-prev {
+    font-size: 18px;
+    background-color: var(--amarelo);
+    color: var(--preto);
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    opacity: 80%;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #e0a800f7;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.top10-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .numero-top10-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 4px;
+  }
+  
+  .numero-top10 {
+    width: 40px;
+    height: auto;
+    opacity: 0.9;
+    filter: drop-shadow(2px 2px 2px black);
+  }
+  

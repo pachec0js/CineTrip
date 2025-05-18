@@ -1,0 +1,97 @@
+[
+    {
+      "id": 28,
+      "nome": "Ação",
+      "imagem": "/imagens-generos/acao.png"
+    },
+    {
+      "id": 12,
+      "nome": "Aventura",
+      "imagem": "/imagens-generos/aventura.png"
+    },
+    {
+      "id": 16,
+      "nome": "Animação",
+      "imagem": "/imagens-generos/animacao.png"
+    },
+    {
+      "id": 35,
+      "nome": "Comédia",
+      "imagem": "/imagens-generos/comedia.png"
+    },
+    {
+      "id": 80,
+      "nome": "Crime",
+      "imagem": "/imagens-generos/crime.png"
+    },
+    {
+      "id": 99,
+      "nome": "Documentário",
+      "imagem": "/imagens-generos/documentario.png"
+    },
+    {
+      "id": 18,
+      "nome": "Drama",
+      "imagem": "/imagens-generos/drama.png"
+    },
+    {
+      "id": 10751,
+      "nome": "Família",
+      "imagem": "/imagens-generos/familia.png"
+    },
+    {
+      "id": 14,
+      "nome": "Fantasia",
+      "imagem": "/imagens-generos/fantasia.png"
+    },
+    {
+      "id": 36,
+      "nome": "História",
+      "imagem": "/imagens-generos/historia.png"
+    },
+    {
+      "id": 27,
+      "nome": "Terror",
+      "imagem": "/imagens-generos/terror.png"
+    },
+    {
+      "id": 10402,
+      "nome": "Música",
+      "imagem": "/imagens-generos/musica.png"
+    },
+    {
+      "id": 9648,
+      "nome": "Mistério",
+      "imagem": "/imagens-generos/misterio.png"
+    },
+    {
+      "id": 10749,
+      "nome": "Romance",
+      "imagem": "/imagens-generos/romance.png"
+    },
+    {
+      "id": 878,
+      "nome": "Ficção científica",
+      "imagem": "/imagens-generos/ficcao-cientifica.png"
+    },
+    {
+      "id": 10770,
+      "nome": "Cinema TV",
+      "imagem": "/imagens-generos/cinema-tv.png"
+    },
+    {
+      "id": 53,
+      "nome": "Thriller",
+      "imagem": "/imagens-generos/thriller.png"
+    },
+    {
+      "id": 10752,
+      "nome": "Guerra",
+      "imagem": "/imagens-generos/guerra.png"
+    },
+    {
+      "id": 37,
+      "nome": "Faroeste",
+      "imagem": "/imagens-generos/faroeste.png"
+    }
+  ]

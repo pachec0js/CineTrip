@@ -1,0 +1,110 @@
+body {
+    background-color: var(--preto);
+}
+
+.container-str {
+    margin-bottom: 50px;
+}
+
+.titulo {
+    border-left: solid 3px var(--amarelo);
+    padding-left: 10px;
+    color: var(--branco);
+}
+
+.titulo span {
+    color: var(--amarelo);
+}
+
+.sub-titulo {
+    color: var(--branco);
+    font-weight: normal;
+    opacity: 90%;
+}
+
+.div-form {
+    display: flex;
+    justify-content: center;
+}
+
+.speak {
+    width: 100%;
+}
+
+.img-speak {
+    border-radius: 15px;
+}
+
+form input,
+form textarea {
+    background-color: var(--preto);
+    color: var(--branco);
+    border: 1px solid var(--cinzaEscuro);
+    padding: 0.75rem;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: var(--branco);
+}
+
+.accordion-header {
+    margin-bottom: 0;
+    border-top: 1px grey solid;
+    border-left: 1px grey solid;
+    border-right: 1px grey solid;
+}
+
+.accordion-button {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--preto);
+    border-bottom: 1px solid var(--cinzaEscuro);
+    color: var(--amarelo);
+    box-shadow: none;
+}
+
+.accordion-button .bi {
+    transition: transform 0.3s ease;
+}
+
+.accordion-body {
+    background-color: var(--preto);
+    color: var(--branco);
+    transition: all 0.4s ease-in-out;
+    border-bottom: 1px grey solid;
+    border-left: 1px grey solid;
+    border-right: 1px grey solid;
+}
+
+.accordion-item {
+    margin-bottom: 1rem;
+    border-radius: 0 !important;
+    overflow: hidden;
+    border: 1px solid var(--cinzaEscuro);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.accordion-button:after {
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    content: "";
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+    flex-shrink: 0;
+    margin-left: auto;
+    filter: brightness(0) saturate(100%) invert(79%) sepia(30%) saturate(2414%) hue-rotate(358deg) brightness(102%) contrast(105%);
+}
